@@ -13,6 +13,14 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
+/**
+ * Разработано для techmatrix18.com
+ *
+ * @autor: Alexander Kuziv
+ * @date: 17-08-2025
+ * @version: 0.0.1
+ */
+
 public class GridScreen implements Screen {
 
     private Texture backgroundTexture;  // фон

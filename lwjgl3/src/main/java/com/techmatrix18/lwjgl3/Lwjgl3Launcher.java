@@ -2,9 +2,7 @@ package com.techmatrix18.lwjgl3;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.techmatrix18.Main;
-import com.techmatrix18.MyGame;
-import com.techmatrix18.TmxMap;
+import com.techmatrix18.*;
 
 /** Launches the desktop (LWJGL3) application. */
 public class Lwjgl3Launcher {
@@ -12,8 +10,10 @@ public class Lwjgl3Launcher {
         if (StartupHelper.startNewJvmIfRequired()) return; // This handles macOS support and helps on Windows.
 
         Lwjgl3ApplicationConfiguration config = getDefaultConfiguration();
-        //new Lwjgl3Application(new MyGame(), config);
-        new Lwjgl3Application(new TmxMap(), config);
+        new Lwjgl3Application(new MyGame(), config);
+        //new Lwjgl3Application(new TmxMap(), config);
+        //new Lwjgl3Application(new MultiUnitMap(), config);
+        //new Lwjgl3Application(new MainMenuGame(), config);
     }
 
     /*private static Lwjgl3Application createApplication() {

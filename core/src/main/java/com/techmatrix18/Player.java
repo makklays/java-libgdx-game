@@ -5,6 +5,14 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
 
+/**
+ * Разработано для techmatrix18.com
+ *
+ * @autor: Alexander Kuziv
+ * @date: 17-08-2025
+ * @version: 0.0.1
+ */
+
 public class Player {
     private Texture texture;
     private Rectangle bounds;
